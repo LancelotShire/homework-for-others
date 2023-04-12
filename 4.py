@@ -1,0 +1,10 @@
+input("请输入一个三位数")
+num=eval(input())
+a=num//100
+num=num-a*100
+b=num//10
+num=num-b*10
+c=num
+print(a)
+print(b)
+print(c)
